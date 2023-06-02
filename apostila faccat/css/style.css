@@ -1,0 +1,23 @@
+button {
+    background-color: black; /* Cor de fundo */
+    border: none; /* Sem borda */
+    color: white; /* Cor do texto */
+    padding: 15px 32px; /* Espaçamento interno */
+    text-align: center; /* Centralizar texto */
+    text-decoration: none; /* Sem decoração */
+    display: inline-block; /* Exibir como um elemento em linha */
+    font-size: 16px; /* Tamanho da fonte */
+    margin: 4px 2px; /* Margem */
+    cursor: pointer; /* Cursor do mouse */
+    border-radius: 8px; /* Borda arredondada */
+    transition-duration: 0.4s; /* Duração da transição */
+  }
+  
+ button:hover {
+    background-color: midnightblue; /* Mudar a cor do fundo ao passar o mouse */
+    color: white; /* Mudar a cor do texto ao passar o mouse */;
+  }
+  button:active {
+    box-shadow: inset -4px 4px 0 #222;
+    font-size: 0.9rem;
+  }
