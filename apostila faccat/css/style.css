@@ -1,0 +1,33 @@
+button {
+    background-color: black; 
+    border: none; 
+    color: white;
+    padding: 15px 32px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 16px; 
+    margin: 4px 2px; 
+    cursor: pointer; 
+    border-radius: 8px; 
+    transition-duration: 0.4s; 
+  }
+  
+ button:hover {
+    background-color: rgb(2, 147, 154); 
+    color: white; 
+  }
+  button:active {
+    box-shadow: inset -4px 4px 0 #222;
+    font-size: 0.9rem;
+  }
+  
+  body{
+    
+    height: 100vh;
+    background: linear-gradient(256.68deg, #00FFFF -0.54%, #00A2D5 16.22%, #007AAE 31.4%, #003687 46.59%, #030241 64.12%, #120028 82.72%, #000000 100%);
+   
+  }
+  h2{
+    color: white;
+  }
